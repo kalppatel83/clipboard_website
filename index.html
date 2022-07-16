@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Simple Tailwind Starter</title>
+    <title>Clipboard Website</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,19 +17,15 @@
   <body>
     <!-- Hero Section -->
     <section id="hero">
-      <div class="max-w-6xl px-10 pt-16 mx-auto mb-40 text-center">
+      <div class="px-10 pt-16 mb-40 section-container">
         <img src="images/logo.svg" alt="" class="mx-auto my-16" />
-        <h3 class="mb-8 text-4xl font-bold text-darkGrayisBlue md:text-5xl">
-          A history of everything you copy
-        </h3>
+        <h3>A history of everything you copy</h3>
         <p class="max-w-3xl mx-auto mb-10 text-2xl text-grayishBlue">
           Clipboard allows you to track and organize everything you copy
           Instantly access your clipboard on all your devices.
         </p>
         <!-- Button Container -->
-        <div
-          class="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4"
-        >
+        <div class="button-container">
           <a
             href="#"
             class="p-4 px-8 duration-200 rounded-full shadow-lg bg-strongCyan hover:opacity-80"
@@ -41,6 +37,20 @@
             >Download for Mac</a
           >
         </div>
+      </div>
+    </section>
+
+    <!-- Snippets seciton -->
+    <section id="snippets">
+      <div class="max-w-6xl px-10 mx-auto my-20 text-center">
+        <h3>keep track of your snippets</h3>
+        <p
+          class="max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-grayishBlue"
+        >
+          Clipboard instanly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          iOS app will help you organize everything.
+        </p>
       </div>
     </section>
   </body>
